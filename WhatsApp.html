@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Clone</title>
+    <link rel="icon" href="assets/whatsapp.png">
+    <link rel="stylesheet" href="WhatsApp.css">
+    
+    <style>
+        
+        /* Modification of SCROLL Bar in wrapper*/
+
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+          max-height: 100%;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(172, 172, 172); 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #888; 
+        }
+
+
+        /* BODY */
+
+        body {
+            background-image: url('assets/body-background.jpg');  
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        </style>
+</head>
+<body>
+
+    <div class="Info">
+        <img src="assets/whatsapp.png">
+        WhatsApp Clone
+    </div>
+
+    <div class="Main">
+        <div class="relative hidden">
+            <div class="items__in__options">
+                <div class="new__group">New group</div>
+                <div class="new__broadcast">New broadcast</div>
+                <div class="linked__devices">Linked devices</div>
+                <div class="starred__messages">Starred messages</div>
+                <div class="settings">Settings</div>
+            </div>
+        </div>
+        <div class="header1">
+            <div class="left__Main"><p class="name__App">WhatsApp</p></div>
+            <div class="right__Main">
+                <div class="search"><img src="assets/Main/search.png" alt="Search"></div>
+                <div class="options__Main"><img src="assets/Main/options.png"></div>
+            </div>
+        </div>
+        <div class="header2">
+            <div class="photo"><img src="assets/Main/camera.png"></div>
+            <div class="chats"><div>CHATS</div></div>
+            <div class="status">STATUS</div>
+            <div class="calls">CALLS</div>
+        </div>
+        <div class="list__chats">
+            <div class="chat">
+                <div class="pp__Main"><img src="assets/wrapper/noprofile.jpg" ></div>
+                <div class="chat__info">
+                    <div class="recent__contact"><p class="name">Alp Karar</p></div>
+                    <div class="message"><p class="msg">HELLO HELLO HELLO HELLO ...</p></div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="pp__Main"><img src="assets/wrapper/noprofile.jpg" ></div>
+                <div class="chat__info">
+                    <div class="recent__contact"><p class="name">Philly John</p></div>
+                    <div class="message"><p class="msg">Hello, There. Whats going on?</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts"><img src="assets/Main/chat.png"></div>
+    </div>
+
+
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="left">
+                <div class="arrow__left"><img src="assets/wrapper/left-arrow.png"></div>
+                <div class="pp"><img src="assets/wrapper/noprofile.jpg" ></div>
+                <div class="user"><p class="name">Alp Karar</p></div>
+            </div>
+            <div class="right">
+                <div class="video__call"><img src="assets/wrapper/video-camera.png"></div>
+                <div class="voice__call"><img src="assets/wrapper/phone-call.png"></div>
+                <div class="options"><img src="assets/wrapper/options.png"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="chat">
+                <div class="msg__contact">
+                    <p>HELLO</p>
+                    <div class="right__bottom">
+                        <div class="timestamp__contact">18:57</div>
+                    </div>
+                </div>
+                <div class="msg__mine">
+                    <div class="empty"></div>
+                    <div class="text">
+                        <div class="msg"><p>HELLO</p></div>
+                        <div class="right__bottom">
+                            <div class="seen"><img src="assets/wrapper/double-tick.png"></div>
+                            <div class="timestamp__mine">19:03</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg__contact">
+                    <p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p>
+                    <div class="right__bottom">
+                        <div class="timestamp__contact">19:15</div>
+                    </div>
+                </div>
+
+                <div class="msg__mine">
+                    <div class="empty"></div>
+                    <div class="text">
+                        <div class="msg"><p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p></div>
+                        <div class="right__bottom">
+                            <div class="seen"><img src="assets/wrapper/double-tick.png"></div>
+                            <div class="timestamp__mine">19:17</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg__contact">
+                    <p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p>
+                    <div class="right__bottom">
+                        <div class="timestamp__contact">19:19</div>
+                    </div>
+                </div>
+
+                <div class="msg__mine">
+                    <div class="empty"></div>
+                    <div class="text">
+                        <div class="msg"><p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p></div>
+                        <div class="right__bottom">
+                            <div class="seen"><img src="assets/wrapper/double-tick.png"></div>
+                            <div class="timestamp__mine">19:27</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg__contact">
+                    <p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p>
+                    <div class="right__bottom">
+                        <div class="timestamp__contact">19:37</div>
+                    </div>
+                </div>
+
+                <div class="msg__mine">
+                    <div class="empty"></div>
+                    <div class="text">
+                        <div class="msg"><p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p></div>
+                        <div class="right__bottom">
+                            <div class="seen"><img src="assets/wrapper/double-tick.png"></div>
+                            <div class="timestamp__mine">19:48</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg__contact">
+                    <p>HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLOHELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO HELLO</p>
+                    <div class="right__bottom">
+                        <div class="timestamp__contact">19:51</div>
+                    </div>
+                </div>
+
+                                
+            </div>
+        </div>
+
+        <div class="message__type">
+            <div class="emoji"><img src="assets/wrapper/emoji.png"></div>
+            <div class="message"><input type="text" placeholder="Message"></div>
+            <div class="attach__things"><img src="assets/wrapper/attached.png"></div>
+            <div class="take__photo"><img src="assets/wrapper/camera.png"></div>
+            <div class="record__voice"><img src="assets/wrapper/audio.png"></div>
+        </div>        
+        
+    </div>
+
+    <div class="version">
+        <i>Android Version</i>
+    </div>
+
+    <script src="WhatsApp.js"></script>
+</body>
+</html> 

@@ -1,0 +1,17 @@
+
+/* Left-Top LOGO & TITLE */
+
+.Info {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.Info img {
+    width: 40px;
+    height: 40px;
+}
